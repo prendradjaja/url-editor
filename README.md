@@ -1,7 +1,11 @@
 # BYOTextEditor URL Editor
 
 **What is this?** A quick hack: Edit a URL in your favorite text editor and run
-`make` to open it in the browser.
+`make` to open it in the browser. Useful for editing complicated URL params.
+
+- Newlines are ignored
+- Whitespace at the beginning of a line is ignored
+- Comments (starting with `;`) are ignored
 
 <img src="./demo.gif">
 
